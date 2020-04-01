@@ -9,9 +9,3 @@ end
 def sort_array_char_count(integers)
 integers.sort_by {|x| x.length}
 end
-
-def swap_elements(array, index, destination_index)
-  array, index, destination_index.sort 
-  
-array[0], array[1] = array[2]
-end
