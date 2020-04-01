@@ -8,8 +8,8 @@ end
 
 array = [array, index, destination_index]
 def sort_array_char_count(array, index, destination_indexs)
-integers.sort_by {|x| x.length}
+array, index, destination_index.sort_by
 
-array[0], array[3] = array[3], array[0]
+array[0], array[1] = array[2]
 
 end
