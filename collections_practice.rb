@@ -7,7 +7,7 @@ def sort_array_desc(integers)
 end
 
 array = [array, index, destination_index]
-def sort_array_char_count(array, index, destination_indexs)
+def sort_array_char_count(array)
 array, index, destination_index.sort
 array[0], array[2] = array[1]
 
