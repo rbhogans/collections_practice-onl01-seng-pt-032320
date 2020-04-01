@@ -12,3 +12,6 @@ end
 
 def swap_elements(array, index, destination_index)
   array, index, destination_index.sort 
+  
+array[0], array[1] = array[2]
+end
